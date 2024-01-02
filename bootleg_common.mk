@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-lineage
-
 # AiAi Config
 PRODUCT_COPY_FILES += \
     device/google/gs101/allowlist_com.google.android.as.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.google.android.as.xml
